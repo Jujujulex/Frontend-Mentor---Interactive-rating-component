@@ -39,6 +39,6 @@ I have to cotinue learning how to use framewoork and how to interact with markup
 
 - Website - [Juliet Amobi](https://youtube.com/@julietamobi)
 
-- Twitter - [@julietamobi](https://www.twitter.com/@julietamobi)
+- Twitter - [@julietamobi](https://www.twitter.com/julietamobi)
 
 ## Happy Coding 👩🏽‍💻
