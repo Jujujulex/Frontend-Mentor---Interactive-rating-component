@@ -1,0 +1,142 @@
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --light-grey: hsl(217, 12%, 63%);
+  --white-grey: hsl(217, 12%, 80%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --light-blue: hsl(213, 19%, 23%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  max-width: 1440px;
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+}
+.star {
+  border-radius: 50%;
+  background-color: var(--light-blue);
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+}
+
+P {
+  font-size: 14px;
+  color: var(--white-grey);
+}
+
+main {
+  margin: 10rem auto;
+  display: block;
+  background-color: var(--dark-blue);
+  max-width: 22rem;
+  height: 23rem;
+  padding: 1rem 1.5rem 0rem 1.5rem;
+  border-radius: 15px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  background-color: var(--light-blue);
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-grey);
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  transition: all 0.5s;
+  background-color: var(--light-grey);
+  color: white;
+}
+
+@media (hover: hover) {
+  form label:hover {
+    background-color: var(--orange);
+    color: white;
+    cursor: pointer;
+  }
+}
+
+button {
+  background-color: var(--orange);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+  height: 2.3rem;
+}
+
+button:hover {
+  color: var(--orange);
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.illu-pos {
+  margin-top: 1rem;
+}
+
+.selection-outer {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--light-blue);
+  border-radius: 15px;
+  height: 1.5rem;
+  width: 11.5rem;
+  text-align: center;
+}
+
+.selection {
+  color: var(--orange);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.msg {
+  text-align: center;
+  margin-top: 7px;
+  font-size: 13.5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: var(--orange);
+}
